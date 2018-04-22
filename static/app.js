@@ -26,7 +26,7 @@ vapp = new Vue({
     mapType: 'erangel',
     followMe: true,
     isDesert: false,
-    showBox: false,
+    showBox: true,
     showAirDrop: true,
     showCar: true,
 
@@ -38,7 +38,7 @@ vapp = new Vue({
     showItemHealth: false,
     showItemThrow: false,
     showItemAmmo: false,
-    showItemAll: false,
+    showItemAll: true,
 
     coordinate: '',
     toggleButtonText: '停止刷新'
