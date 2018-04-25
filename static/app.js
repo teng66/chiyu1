@@ -691,9 +691,6 @@ const renderMap = () => {
     if (playerObj.health != null) {
       label += ` |血:${Math.floor(playerObj.health)}|`
     }
-	if (playerObj.distance != null) {
-		label += ` 距离:{playerObj.distance}|`
-	}
     feature.set('_label', label)
     // re-add should be fine
     playerSource.addFeature(feature)
